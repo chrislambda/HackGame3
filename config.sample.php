@@ -121,80 +121,80 @@ $levels = array(
 	array(
 		'label' => 'one',
 		'title' => 'Beware your URL',
-		'message' => 'Do you notice something on the URL? Try to access directly to level 2!',
-		'lesson' => 'Remember to check the credentials of user before granting access on each private page.'
+		'message' => 'Do you notice something in the URL? Try to access level 2 directly!',
+		'lesson' => 'Remember to check user credentials before granting access on each private page.'
 	),
 	array(
 		'label' => 'two',
 		'title' => 'Avoid parameter modification of sensible data',
 		'message' => 'Was level one too easy? Try again with something different!',
-		'lesson' => 'Do not verifies successful log in on the basis of a fixed value parameters, because a user could modify these parameters to gain access to the protected areas without providing valid credentials.'
+		'lesson' => 'Do not verify successful login on the basis of fixed value parameters, because a user could modify these parameters to gain access to the protected areas without providing valid credentials.'
 	),
 	array(
 		'label' => 'three',
-		'title' => 'Modify your default credential',
-		'message' => 'Very good! Do you know some default username/password combination?',
+		'title' => 'Modify your default credentials',
+		'message' => 'Very good! Do you know some default username/password combinations?',
 		'lesson' => 'Remember to modify the default username and password of your application (and also your router default username/password combination).'
 	),
 	array(
 		'label' => 'four',
 		'title' => 'Remove comments before publishing your website',
 		'message' => 'Do you know how to read source code?',
-		'lesson' => 'Do not leave back doors to easily access the application, and remember to remove all comments before publishing your website.'
+		'lesson' => 'Do not leave backdoors to easily access the application, and remember to remove all comments before publishing your website.'
 	),
 	array(
 		'label' => 'five',
-		'title' => 'Avoid client-side only validation',
+		'title' => 'Avoid client-side-only validation',
 		'message' => 'Great job! Try it again!',
 		'lesson' => 'Never trust client-side validation.'
 	),
 	array(
 		'label' => 'six',
-		'title' => 'Javascript hidding technique',
-		'message' => 'So, you look like a javascript expert. How about now?',
+		'title' => 'Javascript hiding technique',
+		'message' => 'So, you look like a JavaScript expert. How about now?',
 		'lesson' => 'Never trust client-side validation, even by hiding it.'
 	),
 	array(
 		'label' => 'seven',
 		'title' => 'Avoid blocking only by client-side',
 		'message' => 'Are you bored? Play with this paradox. Use the same username and password of level six.',
-		'lesson' => 'Again, never trust anything by client-side.'
+		'lesson' => 'Again, never trust anything coming from client-side.'
 	),
 	array(
 		'label' => 'eight',
 		'title' => 'Reverse engineering',
-		'message' => 'You have a very solid client-side knowledge! Let me try your logic ability.',
+		'message' => 'You have very solid client-side knowledge! Let me test your logic ability.',
 		'lesson' => 'Reverse engineering is important for most tasks.'
 	),
 	array(
 		'label' => 'nine',
 		'title' => 'Error message leak',
-		'message' => 'Enough client-side! This is a common username and password list, get the right combination.',
-		'lesson' => 'An application should respond with a generic error message regardless of whether the user ID or password was incorrect. It should also give no indication to the status of an existing account.'
+		'message' => 'Enough client-side! This is a common username and password list. Get the right combination.',
+		'lesson' => 'An application should respond with a generic error message regardless of whether the user ID or password were incorrect. It should also give no indication about the status of an existing account.'
 	),
 	array(
 		'label' => 'ten',
 		'title' => 'Error status leak',
-		'message' => 'This is still the common username and password list, get the right combination.',
-		'lesson' => 'Even though a generic error page is shown to a user, the HTTP response code may differ which can leak information about whether the account is valid or not.'
+		'message' => 'This is still using the common username and password list, so get the right combination.',
+		'lesson' => 'Even though a generic error page is shown to a user, the HTTP response code may differ, which can leak information about whether the account is valid or not.'
 	),
 	array(
 		'label' => 'eleven',
 		'title' => 'Timing leak',
-		'message' => 'Again, this is the common username and password list, get the right combination.',
+		'message' => 'Again, this is the common username and password list, so get the right combination.',
 		'lesson' => 'Be careful about the delay of checking the validity of user and password.'
 	),
 	array(
 		'label' => 'twelve',
 		'title' => 'Cookie information leakage',
-		'message' => 'Some user just logged out on your computer, can you figure how to log in without the password?',
+		'message' => 'Some user just logged out on your computer. Can you figure how to log in without the password?',
 		'lesson' => 'A common mistake is to include specific data in the cookie instead of issuing a generic value and referencing real data at the server side.'
 	),
 	array(
 		'label' => 'thirteen',
 		'title' => 'Bypass the user-agent limitation',
-		'message' => 'Great! You logged successfully with the modified cookie, but you can only access this page with <code class=codeblock>{user_agent}</code>, can you bypass it?',
-		'lesson' => 'Do not trust the browser user-agent string because is prone to modification.'
+		'message' => 'Great! You logged in successfully with the modified cookie, but you can only access this page with <code class=codeblock>{user_agent}</code>, can you bypass it?',
+		'lesson' => 'Do not trust the browser user-agent string because it is prone to modification.'
 	),
 	array(
 		'label' => 'fourteen',
@@ -205,8 +205,8 @@ $levels = array(
 	array(
 		'label' => 'fifteen',
 		'title' => 'Beware of IP address spoofing',
-		'message' => 'This page is limited to internal IP address on a range between <code class=codeblock>{ip_range_start}</code> - <code class=codeblock>{ip_range_end}</code>, try to fool the server.',
-		'lesson' => 'You should trust the directly connected IP address only.'
+		'message' => 'This page is limited to internal IP address on a range between <code class=codeblock>{ip_range_start}</code> - <code class=codeblock>{ip_range_end}</code>. Try to fool the server.',
+		'lesson' => 'You should trust the directly-connected IP address only.'
 	)
 );
 
